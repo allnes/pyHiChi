@@ -12,6 +12,7 @@ CTestTestfile.cmake
 _deps
 bin
 fftw*
+build_*
 
 #C/C++
 *.d

@@ -31,7 +31,7 @@ set(core_headers
     ${CORE_HEADER_DIR}/VectorsProxy.h
     ${CORE_HEADER_DIR}/macros.h)
 
-if (FFT_INCLUDES)
+if (USE_FFTW AND FFT_INCLUDES)
     set(core_headers ${core_headers} 
         ${FFT_INCLUDES}/fftw3.h)
 endif()
